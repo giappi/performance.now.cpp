@@ -13,7 +13,7 @@ private:
 
 public:
 
-	// get high resolution timestamp in seconds, accurate to five thousandths of a millisecond
+	// get high resolution timestamp in seconds, accurate to 1/100000 seconds
 	static double now();
 	
 	// start measure
